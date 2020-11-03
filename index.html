@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>gmail inbox</title>
+    <link rel="stylesheet" href="css/style.css" >
+  </head>
+
+  <body>
+    <!-- apro il container -->
+   <div class="container">
+
+  <!-- apro intestazione -->
+     <header>
+      <h1 class="bianco">Gmail</h1>
+     </header>
+     <!-- chiudo intestazione -->
+      <hr>
+      <!-- inserisco form (essendo solo visivo e non funzionante evito il tag form)-->
+      <input type="text" name="Ricerca" placeholder="Search">
+      <input type="submit" name="Accettazione" value="VAI">
+
+      <!-- chiudo il form -->
+      <h2 class="bianco">You have <span class="numunread">30</span> unread</h2>
+      <hr>
+      <!-- creo 4 div di classe item, uno con id per differenziarne il colore -->
+    <div class="item">
+      <input type="checkbox" name="mail1"> <span class="oggettoemail">&starf; Oggetto della mail</span><span class="corpoemail"> - testo della mail</span>
+    </div>
+
+    <div id="itembianco" class="item">
+
+      <input type="checkbox" name="mail1"> <span class="oggettoemail">&starf; Oggetto della mail</span><span class="corpoemail"> - testo della mail</span>
+    </div>
+
+
+    <div class="item">
+
+      <input type="checkbox" name="mail1"> <span class="oggettoemail">&starf; Oggetto della mail</span><span class="corpoemail"> - testo della mail</span>
+    </div>
+
+    <div class="item">
+
+      <input type="checkbox" name="mail1"> <span class="oggettoemail">&starf; Oggetto della mail</span><span class="corpoemail"> - testo della mail</span>
+    </div>
+    <hr>
+  <!-- apro il footer -->
+   <footer>
+    <h2> GMail <span class="etichetta">powered by Davide</span></h2>
+   </footer>
+   <!-- chiudo il footer -->
+
+    <!-- chiudo container -->
+   </div>
+</body>
+</html>
