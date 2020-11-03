@@ -1,16 +1,17 @@
 *{margin: 0 auto;
  box-sizing: border-box;}
 body{background-image:url("../img/slack-imgs.jpg");
-background-size: cover;}
+}
 
 /* classe utility bianco */
 .bianco{color:#fff;
 }
+.container {width:1200px;}
+
 .affianca{
   display:inline-block;
 }
 
-.container {width:1200px;}
 
 .item{
   padding-left: 3px;
@@ -27,27 +28,35 @@ input[type="submit"]{
   border-radius:6px;
   border:1px solid #000;
 }
-h1{line-height:67px;
-}
-h2{
-  margin:10px 0;
-}
-header{height:67px;
+
+.header-top{
   width:100%;
-margin:20px 0;}
+margin-top:20px;
+padding-bottom:10px;
+border-bottom: 1px solid white;}
 
 img{
-  vertical-align: text-top;
+  vertical-align: middle;
 }
-hr{margin-top: 5px;
-margin-bottom: 5px;}
+.header-bottom{
+  margin-top: 5px;
+  width:100%;
+}
+h2{
+  margin: 10px 0;
+}
+main{
+  width: 100%;
+  padding:5px 0;
+  border-bottom:1px solid #fff;
+  border-top:1px solid #fff;
+}
 .oggettoemail{
   font-weight:bold;
   color:black;}
 .corpoemail{
   color:black;
 opacity:0.5;}
-header div{display:inline-block;}
 
 .numunread{background-color:orange;
   display:inline-block;
@@ -57,10 +66,13 @@ header div{display:inline-block;}
   height:50px;
  border-radius: 50%;}
 
+.oggettoemail::before{
+  content:"\02605   Oggetto della mail";
+}
 footer h2{color:#fff;
   text-align: center;
 }
-.etichetta{
+.etichettafondo{
   font-size: 12px;
   font-style:italic;
 }
