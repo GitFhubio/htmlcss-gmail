@@ -1,0 +1,66 @@
+*{margin: 0 auto;
+ box-sizing: border-box;}
+body{background-image:url("../img/slack-imgs.jpg");
+background-size: cover;}
+
+/* classe utility bianco */
+.bianco{color:#fff;
+}
+.affianca{
+  display:inline-block;
+}
+
+.container {width:1200px;}
+
+.item{
+  padding-left: 3px;
+  width:100%;
+  background-color: grey;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+#itembianco{
+  background-color: #fff;
+}
+input[type="submit"]{
+
+  border-radius:6px;
+  border:1px solid #000;
+}
+h1{line-height:67px;
+}
+h2{
+  margin:10px 0;
+}
+header{height:67px;
+  width:100%;
+margin:20px 0;}
+
+img{
+  vertical-align: text-top;
+}
+hr{margin-top: 5px;
+margin-bottom: 5px;}
+.oggettoemail{
+  font-weight:bold;
+  color:black;}
+.corpoemail{
+  color:black;
+opacity:0.5;}
+header div{display:inline-block;}
+
+.numunread{background-color:orange;
+  display:inline-block;
+  text-align: center;
+  line-height: 50px;
+  width:50px;
+  height:50px;
+ border-radius: 50%;}
+
+footer h2{color:#fff;
+  text-align: center;
+}
+.etichetta{
+  font-size: 12px;
+  font-style:italic;
+}
